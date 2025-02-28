@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bahasa Arab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aplikasi Belajar Bahasa Arab</h1>
+        <button id="theme-toggle">🌙 Mode Gelap</button>
+    </header>
+
+    <main>
+        <h2>Daftar Kosakata</h2>
+        <input type="text" id="search-box" placeholder="Cari kata...">
+        <ul id="word-list"></ul>
+
+        <h3>Tambahkan Kosakata Baru</h3>
+        <input type="text" id="arabic-word" placeholder="Masukkan kata Arab">
+        <input type="text" id="meaning" placeholder="Masukkan artinya">
+        <button id="add-word">Tambah</button>
+
+        <h2>Kuis Interaktif</h2>
+        <button id="start-quiz">Mulai Kuis</button>
+        <div id="quiz-container" class="hidden">
+            <p id="question"></p>
+            <div id="options"></div>
+            <button id="next-question">Pertanyaan Selanjutnya</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
